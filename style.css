@@ -27,8 +27,18 @@ main {
     gap: 10px;
 }
 
+.images img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+
 @media (max-width: 768px) {
     .images {
+        
+        flex-direction: column;
         
     }
 }
